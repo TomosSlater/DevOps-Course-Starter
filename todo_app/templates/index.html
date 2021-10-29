@@ -17,6 +17,11 @@
           </li>
         {% endfor %}
       </ul>
+      <form action="/add-item-form" method="post">
+          <label for="title"></label>
+          <input type="text" name="title" id="title" required>
+          <button>Submit</button>
+      </form>
     </div>
   </div>
 {% endblock %}
